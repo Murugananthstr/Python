@@ -18,7 +18,7 @@ print("\n\nPrinting Values")
 val=student.values();
 for va in val:
     print(f"{va}")
-
+# del student["Name"] -- to delete the item from the dictionary
 students_all = [
         {"Name":"Muruganantham", "Age":40},
         {"Name":"Ananth", "Age":41},
